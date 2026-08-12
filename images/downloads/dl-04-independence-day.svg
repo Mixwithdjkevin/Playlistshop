@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060A"/>
+      <stop offset="50%" stop-color="#0E1018"/>
+      <stop offset="100%" stop-color="#040508"/>
+    </linearGradient>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9933"/>
+      <stop offset="100%" stop-color="#FFC078"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#138808"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="gold4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5C158"/>
+      <stop offset="100%" stop-color="#FFF2B2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="none" stroke="#E5C158" stroke-opacity="0.2" stroke-width="2"/>
+
+  <!-- Tricolor Light Arcs (Subtle & Elegant) -->
+  <path d="M 60 120 Q 400 20 740 120" fill="none" stroke="url(#saffronGrad)" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <path d="M 80 150 Q 400 60 720 150" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 100 180 Q 400 100 700 180" fill="none" stroke="url(#greenGrad)" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Ashoka Chakra / DJ Vinyl Disc Motif -->
+  <circle cx="400" cy="270" r="110" fill="#0A0D18" stroke="url(#gold4)" stroke-width="3"/>
+  <circle cx="400" cy="270" r="90" fill="#111524" stroke="#0038A8" stroke-width="2"/>
+  <circle cx="400" cy="270" r="25" fill="#0038A8"/>
+
+  <!-- Spokes -->
+  <g stroke="#0055FF" stroke-width="1.5" opacity="0.6">
+    <line x1="400" y1="180" x2="400" y2="360"/>
+    <line x1="310" y1="270" x2="490" y2="270"/>
+    <line x1="336" y1="206" x2="464" y2="334"/>
+    <line x1="336" y1="334" x2="464" y2="206"/>
+  </g>
+
+  <!-- DJ Headphones on Disc -->
+  <path d="M 280 270 A 120 120 0 0 1 520 270" fill="none" stroke="url(#gold4)" stroke-width="10" stroke-linecap="round"/>
+  <rect x="260" y="250" width="30" height="60" rx="8" fill="#1E2235" stroke="url(#gold4)" stroke-width="2"/>
+  <rect x="510" y="250" width="30" height="60" rx="8" fill="#1E2235" stroke="url(#gold4)" stroke-width="2"/>
+
+  <!-- Year 2026 Badge -->
+  <rect x="330" y="380" width="140" height="40" rx="20" fill="#151928" stroke="url(#gold4)" stroke-width="2"/>
+  <text x="400" y="406" fill="url(#gold4)" font-family="sans-serif" font-size="18" font-weight="900" text-anchor="middle" letter-spacing="2">2026 EDITION</text>
+
+  <!-- Text -->
+  <text x="400" y="465" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="900" text-anchor="middle" letter-spacing="3">INDEPENDENCE DAY MP3 FILES</text>
+  <text x="400" y="500" fill="#B0B6C8" font-family="sans-serif" font-size="14" text-anchor="middle" letter-spacing="1">PATRIOTIC DJ EDITS &amp; EVENT SPECIAL TRACKS</text>
+</svg>

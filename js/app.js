@@ -258,40 +258,94 @@ const DJApp = {
 
   freeDownloads: [
     {
-      id: "dl-001",
-      title: "FREE REKORDBOX DEMO PLAYLIST",
-      format: "Rekordbox XML / MP3",
-      size: "Instant Download",
-      trackCount: "Demo Cue Pack",
-      desc: "Download a free Rekordbox demo playlist and experience the quality before purchasing.",
-      fileUrl: "https://superprofile.bio/vp/free-demo-rekordbox-playlist-with-hot-cue"
+      id: "dl-101",
+      title: "DJ Separator File — 90 to 160 BPM",
+      desc: "DJ separator files covering 90–160 BPM for DJ practice, edits and creative mixing.",
+      fileUrl: "https://www.mediafire.com/folder/gzo42tuhoyhea/DJ+KEVIN+SEPARATOR",
+      image: "images/downloads/dl-01-separator.svg",
+      category: "AUDIO TOOLS",
+      tag: "90–160 BPM"
     },
     {
-      id: "dl-002",
-      title: "BPM & CAMELOT KEY DJ QUICK CHART",
-      format: "PDF Document",
-      size: "4.5 MB",
-      trackCount: "Quick Reference Guide",
-      desc: "High-resolution printable PDF cheat sheet for harmonic mixing, key compatibility, and energy scales.",
-      fileUrl: "https://superprofile.bio/vp/bollywood-original-hot-cues--your-instant-party-starter--634"
+      id: "dl-102",
+      title: "Rekordbox & MP3 Playlist Demo",
+      desc: "Free Rekordbox and MP3 playlist demo files for DJs who want to explore playlist organization and DJ preparation.",
+      fileUrl: "https://www.mediafire.com/folder/vb9xkvdpbfkka/DJ+KEVIN+FREE",
+      image: "images/downloads/dl-02-rekordbox-demo.svg",
+      category: "PLAYLIST DEMO",
+      tag: "REKORDBOX & MP3"
     },
     {
-      id: "dl-003",
-      title: "FREE WARM-UP TRANSITION TOOLKIT",
-      format: "320kbps MP3s",
-      size: "210 MB",
-      trackCount: "15 Transition Edits",
-      desc: "Smooth tempo shifting tracks (75 BPM to 128 BPM) designed for seamless set warmups.",
-      fileUrl: "https://superprofile.bio/vp/bollywood-original-hot-cues--your-instant-party-starter--634"
+      id: "dl-103",
+      title: "Bollywood Original Dance Tracklist",
+      desc: "A useful Bollywood original dance tracklist for DJs looking for tracks and ideas for their sets.",
+      fileUrl: "https://www.mediafire.com/file/1x81cwdp1kwc58y/BOLLY_ORG_DANCE_pdf.pdf/file",
+      image: "images/downloads/dl-03-bollywood-tracklist.svg",
+      category: "TRACKLIST PDF",
+      tag: "BOLLYWOOD ORIGINAL"
     },
     {
-      id: "dl-004",
-      title: "FREE SCRATCH & VOCAL FX DROP ZIP",
-      format: "24-bit WAV Audio",
-      size: "85 MB",
-      trackCount: "100+ Vocal Chops & Drops",
-      desc: "High quality DJ drop FX, vinyl scratches, laser risers, and crowd hype vocals.",
-      fileUrl: "https://superprofile.bio/vp/bollywood-original-hot-cues--your-instant-party-starter--634"
+      id: "dl-104",
+      title: "Independence Day MP3 Files — 2026",
+      desc: "Free Independence Day MP3 files for DJ sets and events in 2026.",
+      fileUrl: "https://drive.google.com/drive/folders/1jDop4lzvcXihbg3FIK-KxjoI7nKhMRKH?usp=sharing",
+      image: "images/downloads/dl-04-independence-day.svg",
+      category: "EVENT MP3 PACK",
+      tag: "2026 EDITION"
+    },
+    {
+      id: "dl-105",
+      title: "Free Deep House Bollywood",
+      desc: "Free Deep House and Bollywood music resources for DJs and music lovers.",
+      fileUrl: "https://drive.google.com/drive/folders/1aRmZ8QE71GxRfUKj1NFzv7j2obSnEpif?usp=sharing",
+      image: "images/downloads/dl-05-deep-house-bollywood.svg",
+      category: "MUSIC RESOURCE",
+      tag: "DEEP HOUSE & BOLLYWOOD"
+    },
+    {
+      id: "dl-106",
+      title: "DJ Kevin Instrumentals for Events",
+      desc: "Free DJ Kevin instrumental tracks suitable for events, background music and DJ use.",
+      fileUrl: "https://drive.google.com/file/d/1pBhGzlB3OlQNXTFGKkT5ga1UoWvHvChw/view?usp=drive_link",
+      image: "images/downloads/dl-06-event-instrumentals.svg",
+      category: "INSTRUMENTALS",
+      tag: "EVENT BACKGROUND"
+    },
+    {
+      id: "dl-107",
+      title: "Free Rekordbox Sample Pack",
+      desc: "Free DJ sample pack for Rekordbox. Download the sample pack and import it into Rekordbox using the appropriate library/import workflow.",
+      fileUrl: "https://www.mediafire.com/file/cb2w8ydrosgurzh/SAMPLE_PACK.spp/file",
+      image: "images/downloads/dl-07-rekordbox-sample-pack.svg",
+      category: "SAMPLE PACK",
+      tag: ".SPP FORMAT"
+    },
+    {
+      id: "dl-108",
+      title: "Pioneer Unlock Device Settings & Service PDFs",
+      desc: "Useful PDF resources covering Pioneer DJ unlock-device settings and service-location information.",
+      fileUrl: "https://www.mediafire.com/folder/mm3a49frli1jt/pdf",
+      image: "images/downloads/dl-08-pioneer-unlock-pdf.svg",
+      category: "TECHNICAL PDF",
+      tag: "PIONEER DJ GUIDES"
+    },
+    {
+      id: "dl-109",
+      title: "DJ Folder Structure for Samples",
+      desc: "A useful folder-organization structure for DJs who want to keep samples and DJ resources properly organized.",
+      fileUrl: "https://drive.google.com/file/d/1Bhs5sLiOATscsI5ieyrtFnaHj3wG25TO/view?usp=drive_link",
+      image: "images/downloads/dl-09-folder-structure.svg",
+      category: "ORGANIZATION",
+      tag: "DIRECTORY TEMPLATE"
+    },
+    {
+      id: "dl-110",
+      title: "DJ Track List for Beginners",
+      desc: "A beginner-friendly DJ tracklist to help new DJs understand what tracks they can start with and how to build their music library.",
+      fileUrl: "https://drive.google.com/drive/folders/1o6Dpf7CGW_shBAXeKAJlyHGtze1cBfST?usp=drive_link",
+      image: "images/downloads/dl-10-beginner-tracklist.svg",
+      category: "BEGINNER GUIDE",
+      tag: "STARTER TRACKLIST"
     }
   ],
 
@@ -461,21 +515,25 @@ const DJApp = {
     if (!grid) return;
 
     grid.innerHTML = this.freeDownloads.map(dl => `
-      <div class="feature-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+      <div class="feature-card" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; padding: 0; overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); transition: all 0.3s ease;">
         <div>
-          <div class="feature-icon">
-            <i class="ri-download-cloud-2-line"></i>
+          <div style="position: relative; overflow: hidden; border-bottom: 1px solid var(--border-subtle);">
+            <img src="${dl.image}" alt="${dl.title}" style="width: 100%; height: 200px; object-fit: cover; display: block;" />
           </div>
-          <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-            <span class="badge-gold" style="margin-bottom:0;">${dl.format}</span>
-            <span class="badge-gold" style="margin-bottom:0; border-color: rgba(255,255,255,0.1); color: var(--text-secondary);">${dl.size}</span>
+          <div style="padding: 1.5rem 1.5rem 0.5rem 1.5rem;">
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+              <span class="badge-gold" style="margin-bottom:0; font-size: 0.72rem; padding: 0.2rem 0.6rem;">${dl.category}</span>
+              <span class="badge-gold" style="margin-bottom:0; font-size: 0.72rem; padding: 0.2rem 0.6rem; border-color: rgba(255,255,255,0.15); color: var(--text-secondary);">${dl.tag}</span>
+            </div>
+            <h3 style="font-size: 1.15rem; color: #FFF; margin-bottom: 0.6rem; font-weight: 700; line-height: 1.35;">${dl.title}</h3>
+            <p style="color: var(--text-secondary); font-size: 0.88rem; line-height: 1.5; margin-bottom: 1.25rem;">${dl.desc}</p>
           </div>
-          <h3 style="font-size: 1.25rem; color: #FFF; margin-top: 0.75rem; margin-bottom: 0.5rem;">${dl.title}</h3>
-          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.5rem;">${dl.desc}</p>
         </div>
-        <button onclick="DJApp.handleDownload('${dl.title}', '${dl.fileUrl}')" class="btn btn-gold btn-full">
-          <i class="ri-download-line"></i> Free Instant Download
-        </button>
+        <div style="padding: 0 1.5rem 1.5rem 1.5rem;">
+          <a href="${dl.fileUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-full" style="text-align: center; justify-content: center; display: inline-flex; align-items: center; gap: 0.5rem;">
+            <i class="ri-download-line"></i> DOWNLOAD FREE
+          </a>
+        </div>
       </div>
     `).join("");
   },

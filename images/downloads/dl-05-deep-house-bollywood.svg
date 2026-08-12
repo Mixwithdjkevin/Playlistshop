@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07040B"/>
+      <stop offset="50%" stop-color="#120A1E"/>
+      <stop offset="100%" stop-color="#050308"/>
+    </linearGradient>
+    <linearGradient id="gold5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5C158"/>
+      <stop offset="100%" stop-color="#FFD54F"/>
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D500F9"/>
+      <stop offset="100%" stop-color="#651FFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg5)"/>
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="none" stroke="#E5C158" stroke-opacity="0.2" stroke-width="2"/>
+
+  <!-- Laser Beam Beams -->
+  <polygon points="400,20 100,420 200,420" fill="url(#neonPurple)" opacity="0.3"/>
+  <polygon points="400,20 600,420 700,420" fill="url(#neonPurple)" opacity="0.3"/>
+  <polygon points="400,20 250,420 350,420" fill="url(#gold5)" opacity="0.25"/>
+  <polygon points="400,20 450,420 550,420" fill="url(#gold5)" opacity="0.25"/>
+
+  <!-- Club Speaker Cone -->
+  <circle cx="400" cy="230" r="120" fill="#140D24" stroke="url(#gold5)" stroke-width="4"/>
+  <circle cx="400" cy="230" r="85" fill="#1D1233" stroke="url(#neonPurple)" stroke-width="3"/>
+  <circle cx="400" cy="230" r="45" fill="#2A1A4A" stroke="url(#gold5)" stroke-width="2"/>
+  <circle cx="400" cy="230" r="18" fill="#E5C158"/>
+
+  <!-- Pulsing Sound Wave Ring -->
+  <circle cx="400" cy="230" r="150" fill="none" stroke="url(#gold5)" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.6"/>
+
+  <!-- Text -->
+  <text x="400" y="420" fill="url(#gold5)" font-family="sans-serif" font-size="28" font-weight="900" text-anchor="middle" letter-spacing="4">DEEP HOUSE BOLLYWOOD</text>
+  <text x="400" y="460" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="2">ATMOSPHERIC CLUB REMIXES &amp; EDM GROOVES</text>
+  <text x="400" y="490" fill="#A892C8" font-family="sans-serif" font-size="13" text-anchor="middle">EXCLUSIVE DJ PROMO PACK</text>
+</svg>

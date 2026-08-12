@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A0D"/>
+      <stop offset="50%" stop-color="#10151E"/>
+      <stop offset="100%" stop-color="#05070A"/>
+    </linearGradient>
+    <linearGradient id="gold7" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5C158"/>
+      <stop offset="100%" stop-color="#FFF2B2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg7)"/>
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="none" stroke="#E5C158" stroke-opacity="0.2" stroke-width="2"/>
+
+  <!-- 16 Drum Pad Grid (Sampler) -->
+  <g stroke="url(#gold7)" stroke-width="2">
+    <!-- Row 1 -->
+    <rect x="220" y="80" stroke-width="2" width="70" height="70" rx="8" fill="#1C212E"/>
+    <rect x="310" y="80" width="70" height="70" rx="8" fill="#1C212E"/>
+    <rect x="400" y="80" width="70" height="70" rx="8" fill="#2E374D"/>
+    <rect x="490" y="80" width="70" height="70" rx="8" fill="#1C212E"/>
+    <!-- Row 2 -->
+    <rect x="220" y="160" width="70" height="70" rx="8" fill="#1C212E"/>
+    <rect x="310" y="160" width="70" height="70" rx="8" fill="#E5C158"/> <!-- Glowing pad -->
+    <rect x="400" y="160" width="70" height="70" rx="8" fill="#1C212E"/>
+    <rect x="490" y="160" width="70" height="70" rx="8" fill="#2E374D"/>
+    <!-- Row 3 -->
+    <rect x="220" y="240" width="70" height="70" rx="8" fill="#2E374D"/>
+    <rect x="310" y="240" width="70" height="70" rx="8" fill="#1C212E"/>
+    <rect x="400" y="240" width="70" height="70" rx="8" fill="#E5C158"/> <!-- Glowing pad -->
+    <rect x="490" y="240" width="70" height="70" rx="8" fill="#1C212E"/>
+  </g>
+
+  <!-- Format Badge -->
+  <rect x="270" y="340" width="260" height="45" rx="22" fill="#151A26" stroke="url(#gold7)" stroke-width="2"/>
+  <text x="400" y="369" fill="url(#gold7)" font-family="sans-serif" font-size="20" font-weight="900" text-anchor="middle" letter-spacing="3">REKORDBOX .SPP FORMAT</text>
+
+  <!-- Text -->
+  <text x="400" y="435" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="900" text-anchor="middle" letter-spacing="3">FREE REKORDBOX SAMPLE PACK</text>
+  <text x="400" y="475" fill="#A2ACBE" font-family="sans-serif" font-size="14" text-anchor="middle" letter-spacing="1">SAMPLE PACK (.SPP) — IMPORT DIRECTLY INTO REKORDBOX</text>
+</svg>
