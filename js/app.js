@@ -224,34 +224,50 @@ const DJApp = {
       subtitle: "Learn Professional DJing From Anywhere In The World",
       badge: "Most Popular",
       level: "Beginner to Advanced",
-      duration: "6 Weeks (Live 1-on-1 + HD Video Portal)",
+      duration: "2 Months • 3 Days A Week",
+      format: "Live 1-on-1 Training via Zoom or Google Meet",
       price: "₹14,999",
+      whatsappMessage: "Hi DJ Kevin, I want to enquire about the ONLINE DJ MASTERCLASS (PRO CERTIFIED)",
       image: "images/hero/academy-studio.png",
       syllabus: [
-        "Beatmatching by ear & phrase matching fundamentals",
-        "Rekordbox & Serato DJ Pro full ecosystem setup",
-        "Music curation, key matching & library management",
-        "Creative EQing, FX transitions & loop slicing",
-        "Hot cue preparation & live toneplay techniques",
-        "Gig preparation, branding & client booking strategies"
+        "Beatmatching by ear & professional ear training",
+        "Beatmatching, pitch bending & tempo control",
+        "Rekordbox DJ software & library management",
+        "Creating and organizing professional DJ tracklists",
+        "Preparing tracks, cue points & hot cues",
+        "Mashups & creative transitions",
+        "Club DJ mixing techniques",
+        "Private party & event DJ mixing",
+        "EQ, filters, loops & FX for smooth transitions",
+        "Building complete DJ sets for different audiences",
+        "Practical guidance on preparing and performing DJ sets"
       ]
     },
     {
       id: "course-offline",
       title: "OFFLINE IN-STUDIO ACADEMY PROGRAM",
-      subtitle: "Hands-On Practical Training On Pioneer CDJ-3000 & DJM-A9",
+      subtitle: "Hands-On DJ Training With Pioneer XDJ-RR & DDJ-400",
       badge: "In-Studio Experience",
-      level: "Comprehensive Hands-On",
-      duration: "8 Weeks (In-Person Studio Batch)",
+      level: "Beginner to Advanced",
+      duration: "3 Months • 3 Days A Week",
+      format: "In-Person Practical Training At DJ Kevin's Studio",
       price: "₹29,999",
+      whatsappMessage: "Hi DJ Kevin, I want to enquire about the OFFLINE IN-STUDIO ACADEMY PROGRAM",
       image: "images/hero/dj-kevin-about.png",
       syllabus: [
-        "Direct physical training on industry standard Pioneer flagship gear",
-        "Scratching, turntablism, transformer & chirp scratch drills",
-        "Club acoustic control, booth monitors & mixer gain staging",
-        "Live audience reading, energy management & peak-hour sets",
-        "Studio recording your first official 60-minute promo mix",
-        "Lifetime access to DJ Kevin's VIP playlist vault & mentorship"
+        "Hands-on beatmatching by ear & professional ear training",
+        "Beatmatching, pitch bending & tempo control",
+        "Rekordbox DJ software & professional library management",
+        "Creating and organizing DJ tracklists",
+        "Track preparation, cue points & hot cues",
+        "Mashups & creative transitions",
+        "Club DJ mixing techniques",
+        "Private party & event DJ mixing",
+        "EQ, filters, loops & FX for smooth transitions",
+        "Building complete DJ sets for different audiences",
+        "Practical preparation for real-world DJ performances",
+        "Hands-on training using Pioneer XDJ-RR & DDJ-400 setups",
+        "Complete DJ playlist provided after successful course completion"
       ]
     }
   ],
@@ -479,10 +495,10 @@ const DJApp = {
           <p class="course-subtitle">${course.subtitle}</p>
         </div>
         <div class="course-body">
-          <div style="display: flex; gap: 1rem; color: var(--gold-primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 1.5rem; background: var(--bg-surface); padding: 0.8rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
-            <div><i class="ri-time-line"></i> ${course.duration}</div>
-            <div>•</div>
-            <div><i class="ri-award-line"></i> ${course.level}</div>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--gold-primary); font-weight: 600; font-size: 0.88rem; margin-bottom: 1.5rem; background: var(--bg-surface); padding: 0.85rem 1.1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <div style="display: flex; align-items: center; gap: 0.5rem;"><i class="ri-time-line"></i> ${course.duration}</div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;"><i class="ri-vidicon-line"></i> ${course.format}</div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;"><i class="ri-award-line"></i> ${course.level}</div>
           </div>
           
           <div class="course-syllabus">
@@ -500,7 +516,7 @@ const DJApp = {
               <span style="font-size: 0.8rem; color: var(--text-muted); display: block;">Course Investment</span>
               <span style="font-size: 1.5rem; font-weight: 800; color: var(--gold-primary); font-family: var(--font-heading);">${course.price}</span>
             </div>
-            <a href="https://wa.me/${this.whatsappNumber}?text=Hi%20DJ%20Kevin,%20I%20want%20to%20enquire%20about%20the%20${encodeURIComponent(course.title)}" target="_blank" class="btn btn-whatsapp">
+            <a href="https://wa.me/${this.whatsappNumber}?text=${encodeURIComponent(course.whatsappMessage)}" target="_blank" class="btn btn-whatsapp">
               <i class="ri-whatsapp-line" style="font-size: 1.2rem;"></i> WhatsApp Enquiry
             </a>
           </div>
